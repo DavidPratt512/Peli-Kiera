@@ -5,7 +5,7 @@
 {% block content %}
     <main>
         <section id="list">
-            <h2>Archives for {{ SITENAME }}</h2>
+            <h2>Archives</h2>
             <ul>
                 {% for article in dates %}
                     <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
